@@ -1,5 +1,5 @@
-num_switches = ...  # Ваш код
+num_switches: int = int(input('Введите количество переключателей: '))  
 
-combinations = ...  # Ваш код
+combinations: int = 2 ** num_switches  
 
-print(...)  # Ваш код
+print('Количество возможных комбинаций:', combinations)  

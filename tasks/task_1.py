@@ -1,5 +1,7 @@
-number = ...  # Ваш код
+number: int= int(input('Введите целое число: '))
 
-result = ...  # Ваш код
+list: int= 'o' * number
 
-print(...)  # Ваш код
+result: int = 'puth'+ list +'n'  
+
+print(result)  
