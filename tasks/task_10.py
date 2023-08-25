@@ -1,12 +1,11 @@
-number: int = int(input('Введите положительное трехзначное число: '))  
+number: int = int(input('Введите положительное трехзначное число: '))
 
-hundreds: float =  number // 100 
-tens: float = number // 10 % 10  
-units: float = number % 10  
+hundreds: int = number // 100
+tens: int = number // 10 % 10
+units: int = number % 10
 
-sum_digits: int = hundreds + tens + units 
+sum_digits: int = hundreds + tens + units
+product_digits: int = hundreds * tens * units
 
-product_digits: int = hundreds * tens * units 
-
-print('Сумма цифр:', sum_digits)  
-print('Произведение цифр:', product_digits)  
+print('Сумма цифр:', sum_digits)
+print('Произведение цифр:', product_digits)

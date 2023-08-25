@@ -1,7 +1,7 @@
-number: int= int(input('Введите целое число: '))
+number: int = int(input('Введите целое число: '))
 
-list: int= 'o' * number
+char_o: str = 'o' * number
+result: str = 'Pyth' + char_o + 'n'
+# result: str = 'Pyth' + ('o' * number) + 'n'
 
-result: int = 'puth'+ list +'n'  
-
-print(result)  
+print(result)

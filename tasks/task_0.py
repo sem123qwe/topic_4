@@ -1,6 +1,6 @@
-print("Эльмор: Приветствую вас, путник! Я загадал вам одну загадку. ")
+print('Эльмор: Приветствую вас, путник! Я загадал вам одну загадку.')
 user_input: str = input('Введите свой ответ: ')
 
-result: bool = (bool(user_input))
+result: bool = bool(user_input)
 
-print(result)  
+print('Эльмор:', result)
